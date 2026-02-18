@@ -44,7 +44,7 @@ Otherwise, the system switches to **Desorption (Regeneration Mode)** using waste
 """)
 
 # Sample rows
-st.subheader("📊 Sample Climate Decisions")
+st.subheader("Sample Climate Decisions")
 st.dataframe(
     month_df[[
         "Date",
@@ -97,3 +97,4 @@ st.plotly_chart(fig2, use_container_width=True)
 st.markdown("The dataset used has day-wise value of each parameter while the actual system will work on the basis of data collected at regular intervals throughout a single day. Hence the summer months of April, May and June have low absorption percentage")
 
 st.success("Prototype logic validated using real-world climatic data.")
+
